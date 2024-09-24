@@ -18,5 +18,10 @@ public class ReverseStringTest {
         Assert.assertEquals("elppa",ReverseString.reverseString("apple"));
     }
 
+    @Test
+    public void reverseTest(){
+        Assert.assertEquals("ananab",ReverseString.reverseString("banana"));
+    }
+
 
 }
